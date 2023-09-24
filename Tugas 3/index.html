@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--memberi judul atau nama dokumen HTML yang akan ditampilkan di tab browser-->
+    <title>Document</title>
+    <!--mengaplikasikan aturan CSS dari berkas "style.css" ke dokumen HTML-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+        <!-- internal CSS-->
+        <!-- - <style>
+          h1 {
+             color: orange;
+             }
+         h2 {
+             color: purple;
+            }
+        </style>  -->
+
+    <!-- eksternal css  -->
+    <!--mengaplikasikan aturan CSS dari berkas "style.css" ke dokumen HTML-->
+    <link rel="stylesheet" href="style.css">
+   
+    <h1>Hello guys</h1> <!-- Ini adalah elemen heading level 1 (h1) yang berisi teks "Hello guys" -->
+    <h2>Hello world</h2> <!-- Ini adalah elemen heading level 2 (h2) yang berisi teks "Hello world" -->
+        <!-- inline CSS -->
+        <h1 style="color: orange;">Hello guys</h1> <!-- Ini adalah elemen h1 yang memiliki aturan CSS inline untuk mengubah warna teks menjadi oranye -->
+        <h2 style="color: purple;">Hello world</h2> <!-- Ini adalah elemen h2 yang memiliki aturan CSS inline untuk mengubah warna teks menjadi ungu -->
+    
+        <p>
+          <b>Lorem</b> <!-- Ini adalah elemen bold (teks tebal) yang mengapit teks "Lorem" -->
+          <i>ipsum</i> <!-- Ini adalah elemen italic (teks miring) yang mengapit teks "ipsum" -->
+          <u>dolor</u> <!-- Ini adalah elemen underline (garis bawah) yang mengapit teks "dolor" -->
+          sit amet consectetur, adipisicing elit. <!-- Ini adalah teks biasa tanpa efek khusus -->
+          Dolores aperiam sapiente atque aspernatur similique ipsum numquam
+          praesentium, animi ducimus autem commodi fuga, dolorem minus repellendus!
+      </p>
+      <h1>Lorem, ipsum dolor.</h1> <!-- Ini adalah elemen heading level 1 (h1) yang berisi teks "Lorem, ipsum dolor." -->
+      <h2>Lorem, ipsum dolor.</h2> <!-- Ini adalah elemen heading level 2 (h2) yang berisi teks "Lorem, ipsum dolor." -->
+      <h3>Lorem, ipsum dolor.</h3> <!-- Ini adalah elemen heading level 3 (h3) yang berisi teks "Lorem, ipsum dolor." -->
+      <h4>Lorem, ipsum dolor.</h4> <!-- Ini adalah elemen heading level 4 (h4) yang berisi teks "Lorem, ipsum dolor." -->
+      <h5>Lorem, ipsum dolor.</h5> <!-- Ini adalah elemen heading level 5 (h5) yang berisi teks "Lorem, ipsum dolor." -->
+      <h6>Lorem, ipsum dolor.</h6> <!-- Ini adalah elemen heading level 6 (h6) yang berisi teks "Lorem, ipsum dolor." -->
+      <p>4<sup>2</sup></p> <!-- Ini adalah elemen paragraf yang berisi teks "4" bersama dengan superskrip (teks di atas) "2" -->
+      <p>H<sub>2</sub>O</p> <!-- Ini adalah elemen paragraf yang berisi teks "H" bersama dengan subskrip (teks di bawah) "2" dan teks "O" -->
+      
+   <!-- unorder list -->
+     <ul type="circle">
+      <li>coffee</li> <!-- Ini adalah elemen dari daftar tak terurut (unordered list) dengan tipe simbol lingkaran. Isi dari elemen ini adalah "coffee" -->
+      <li>tea</li> <!-- Ini adalah elemen dari daftar tak terurut (unordered list) dengan tipe simbol lingkaran. Isi dari elemen ini adalah "tea" -->
+      <li>milk</li> <!-- Ini adalah elemen dari daftar tak terurut (unordered list) dengan tipe simbol lingkaran. Isi dari elemen ini adalah "milk" -->
+</ul>
+
+<!-- order list -->
+<ol type="I">
+  <li>coffee</li> <!-- Ini adalah elemen dari daftar terurut (ordered list) dengan tipe huruf kapital. Isi dari elemen ini adalah "coffee" -->
+  <li>tea</li> <!-- Ini adalah elemen dari daftar terurut (ordered list) dengan tipe huruf kapital. Isi dari elemen ini adalah "tea" -->
+  <li>milk</li> <!-- Ini adalah elemen dari daftar terurut (ordered list) dengan tipe huruf kapital. Isi dari elemen ini adalah "milk" -->
+</ol>
+
+  
+     <!-- table -->
+<table border="1">
+  <tr>
+      <th>No</th>         
+      <th>Nama</th>
+      <th>Jurusan</th>
+  </tr>
+  <tr>
+      <td rowspan="2">1</td> <!-- Ini adalah sel dalam kolom pertama dengan atribut rowspan yang menunjukkan sel ini akan mencakup dua baris. Isinya adalah "1" -->
+      <td>Maria Anders</td> <!-- Ini adalah sel dalam kolom kedua. Isinya adalah "Maria Anders" -->
+      <td>PSTI</td> <!-- Ini adalah sel dalam kolom ketiga. Isinya adalah "PSTI" -->
+  </tr>
+  <tr>
+      <td>Francisco Chang</td> <!-- Ini adalah sel dalam kolom kedua. Isinya adalah "Francisco Chang" -->
+      <td>PGSD</td> <!-- Ini adalah sel dalam kolom ketiga. Isinya adalah "PGSD" -->
+  </tr>
+  <tr>
+      <td>2</td> <!-- Ini adalah sel dalam kolom pertama. Isinya adalah "2" -->
+      <td colspan="2">SEMUA</td> <!-- Ini adalah sel dalam kolom kedua dan ketiga dengan atribut colspan yang menunjukkan sel ini akan mencakup dua kolom. Isinya adalah "SEMUA" -->
+  </tr>
+</table>
+<br>
+
+          <!-- image dari link google -->
+<img src="https://images.app.goo.gl/oLLREwmKMmbDc1dG7" alt="Logo PSTI"> <!-- Ini adalah elemen gambar (img) yang mengambil sumber gambar dari URL yang diberikan. Alternatif teks adalah "Logo PSTI" -->
+
+<!-- dari file download -->
+<img src="Logo PSTI.png"  height="200"<br><br> <!-- Ini adalah elemen gambar (img) yang mengambil sumber gambar dari file lokal. Tinggi gambar ditetapkan sebagai 200 piksel. Terdapat dua tag br untuk membuat dua baris baru -->
+
+<!-- anchor ke Google -->
+<a href="https://google.com">klik Google</a><br> <!-- Ini adalah elemen anchor (a) yang merupakan tautan ke situs web Google. Teks tautan adalah "klik Google" -->
+<a href="https://www.google.com/maps/@-6.8583424,107.5871744,15z?authuser=0&entry=ttu">klik Google Maps</a> <!-- Ini adalah elemen anchor (a) yang merupakan tautan ke Google Maps. Teks tautan adalah "klik Google Maps" -->
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.8660267184564!2d107.44212597418716!3d-6.538597963919065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e690e68a1406c01%3A0xa66f34eb29c41198!2sUniversitas%20Pendidikan%20Indonesia%2C%20Kampus%20Purwakarta!5e0!3m2!1sid!2sid!4v1695442936990!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!-- Ini adalah elemen iframe yang menyematkan peta Google. Sumber dari iframe adalah URL yang diberikan. Lebar dan tinggi ditetapkan. Gaya (style) menentukan bahwa batas (border) akan dihilangkan dan memungkinkan tampilan penuh (allowfullscreen) -->
+
+<!-- form -->
+<form>
+    <label for="nama">Nama :</label> <!-- Ini adalah label untuk input dengan ID "nama" -->
+    <input type="text"><br> <!-- Ini adalah input teks dengan jenis teks (text) -->
+    <label for="password">Password</label> <!-- Ini adalah label untuk input dengan ID "password" -->
+    <input type="password"> <!-- Ini adalah input sandi dengan jenis kata sandi (password) -->
+    <input type="checkbox"><br> <!-- Ini adalah input checkbox -->
+    <input type="date"> <!-- Ini adalah input untuk memilih tanggal -->
+</form>
+</body>
+</html>
+
+  
